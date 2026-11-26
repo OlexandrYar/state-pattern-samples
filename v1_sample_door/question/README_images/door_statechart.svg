@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 200" width="760" height="200" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <title>Door state chart</title>
+  <rect width="760" height="200" fill="#fff"/>
+  <rect x="63.0" y="93.0" width="150" height="50" rx="14" fill="#d6d6d6"/>
+  <rect x="60.0" y="90.0" width="150" height="50" rx="14" fill="#fff" stroke="#222" stroke-width="1.3"/>
+  <text x="135" y="120" font-size="14" text-anchor="middle" font-weight="bold" font-style="normal" fill="#222">Open</text>
+  <rect x="308.0" y="93.0" width="150" height="50" rx="14" fill="#d6d6d6"/>
+  <rect x="305.0" y="90.0" width="150" height="50" rx="14" fill="#fff" stroke="#222" stroke-width="1.3"/>
+  <text x="380" y="120" font-size="14" text-anchor="middle" font-weight="bold" font-style="normal" fill="#222">Closed</text>
+  <rect x="553.0" y="93.0" width="150" height="50" rx="14" fill="#d6d6d6"/>
+  <rect x="550.0" y="90.0" width="150" height="50" rx="14" fill="#fff" stroke="#222" stroke-width="1.3"/>
+  <text x="625" y="120" font-size="14" text-anchor="middle" font-weight="bold" font-style="normal" fill="#222">Locked</text>
+  <circle cx="380" cy="22" r="8" fill="#222"/>
+  <polyline points="380,30 380,90" fill="none" stroke="#222" stroke-width="1.3"/>
+  <polyline points="375.92,80.87 380,90 384.08,80.87" fill="none" stroke="#222" stroke-width="1.3"/>
+  <text x="394" y="60" font-size="11" text-anchor="start" font-weight="normal" font-style="italic" fill="#555">new</text>
+  <polyline points="305,105 210,105" fill="none" stroke="#222" stroke-width="1.3"/>
+  <polyline points="219.13,100.92 210,105 219.13,109.08" fill="none" stroke="#222" stroke-width="1.3"/>
+  <text x="257" y="97" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#222">open()</text>
+  <polyline points="210,127 305,127" fill="none" stroke="#222" stroke-width="1.3"/>
+  <polyline points="295.87,122.92 305,127 295.87,131.08" fill="none" stroke="#222" stroke-width="1.3"/>
+  <text x="257" y="145" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#222">close()</text>
+  <polyline points="455,105 550,105" fill="none" stroke="#222" stroke-width="1.3"/>
+  <polyline points="540.87,100.92 550,105 540.87,109.08" fill="none" stroke="#222" stroke-width="1.3"/>
+  <text x="502" y="97" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#222">lock()</text>
+  <polyline points="550,127 455,127" fill="none" stroke="#222" stroke-width="1.3"/>
+  <polyline points="464.13,122.92 455,127 464.13,131.08" fill="none" stroke="#222" stroke-width="1.3"/>
+  <text x="502" y="145" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#222">unlock()</text>
+</svg>
